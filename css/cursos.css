@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body { font-family: 'Poppins', sans-serif; background: #fdfdfd; }
+
+header { background: #fff; padding: 1rem 5%; display: flex; justify-content: space-between; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+nav ul { display: flex; list-style: none; gap: 20px; }
+
+main { padding: 50px 5%; max-width: 1200px; margin: auto; display: grid; grid-template-columns: 2fr 1fr; gap: 40px; }
+
+/* Título ocupa as duas colunas */
+h1 { grid-column: 1 / -1; color: #003366; font-size: 2.5rem; }
+
+#curso-detalhe img { width: 100%; border-radius: 20px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+
+/* Lista de Disciplinas */
+ul.disciplinas { list-style: none; margin-top: 20px; }
+ul.disciplinas li {
+    background: #f0f4f8;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    border-left: 5px solid #ff9900;
+}
+
+/* Barra Lateral (ASIDE) */
+aside {
+    background: #003366;
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    height: fit-content;
+    position: sticky; /* Fica parado ao rolar */
+    top: 20px;
+}
+
+aside h4 { color: #ff9900; margin-bottom: 15px; }
+
+footer { background: #003366; color: white; padding: 20px; text-align: center; }
