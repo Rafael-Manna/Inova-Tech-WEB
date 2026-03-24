@@ -2,60 +2,101 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inova Tech - Centro de Capacitação</title>
-<link rel="stylesheet" href="../css/home.css"><body>
 
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
     <header>
         <img src="../imgs/Inovalogo.png" alt="Logo Inova Tech">
-        <h1>Inova Tech - Centro de Capacitação Profissional</h1>
+
+        <h1>Inova Tech</h1>
         
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="cursos.html">Cursos</a></li>
-                <li><a href="secretaria.html">Secretaria Virtual</a></li>
+                <li><a href="secretaria.html">Secretaria</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- CONTEÚDO -->
     <main>
+
+        <!-- APRESENTAÇÃO -->
         <section id="apresentacao">
             <h2>Conheça a Inova Tech</h2>
-            <video width="640" height="360" controls>
-                <source src="video-institucional.mp4" type="video/mp4">
-                Seu navegador não suporta vídeos.
+
+            <video controls>
+                <source src="../videos/videoSenac.mp4" type="video/mp4">
+                Seu navegador não suporta vídeo.
             </video>
         </section>
 
+
+        <!-- DEPOIMENTOS -->
         <section id="depoimentos">
+             <h2>Sobre a Inova Tech</h2>
+
+            <article>
+                <p>
+                    A Inova Tech iniciou como uma startup de tecnologia educacional,
+                    e hoje se tornou um centro de referência que transforma teoria em prática,
+                    capacitando novos desenvolvedores para dominar bancos de dados, lógica e
+                    as tecnologias mais requisitadas pelo mercado atual.
+                </p>
+                <cite>- Rafael Manna</cite>
+            </article>
             <h2>O que dizem nossos alunos</h2>
+
             <article>
                 <p>"A Inova Tech mudou minha carreira!"</p>
                 <cite>- João Silva, Desenvolvedor Full Stack</cite>
             </article>
+
             <article>
                 <p>"Professores altamente qualificados e infraestrutura de ponta."</p>
                 <cite>- Maria Oliveira, Analista de Sistemas</cite>
             </article>
         </section>
 
+        <!-- LOCALIZAÇÃO -->
         <section id="localizacao">
             <h2>Onde Estamos</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d936.7193992713252!2d-35.24993050741455!3d-5.759318129371262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b3000f905e8f9b%3A0x40d887981a0ce129!2sSenac%20Zona%20Norte!5e0!3m2!1spt-BR!2sbr!4v1774309406826!5m2!1spt-BR!2sbr"
+                loading="lazy">
+            </iframe>
         </section>
+
     </main>
 
+    <!-- FOOTER -->
     <footer>
+
         <section>
             <h3>Contato</h3>
             <p>E-mail: contato@inovatech.com.br</p>
             <p>Telefone: (84) 3333-3333</p>
         </section>
+
         <section>
             <h3>Redes Sociais</h3>
-            <a href="#">Instagram</a> | <a href="#">LinkedIn</a> | <a href="#">Facebook</a>
+            <p>
+                <a href="#">Instagram</a> |
+                <a href="#">LinkedIn</a> |
+                <a href="#">Facebook</a>
+            </p>
         </section>
+
         <p>&copy; 2026 Inova Tech - Todos os direitos reservados.</p>
+
     </footer>
 
 </body>

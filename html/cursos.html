@@ -1,25 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-<link rel="stylesheet" href="../css/cursos.css"></head>
-<main>
-    <section id="curso-detalhe">
-        <h1>Curso Técnico em Desenvolvimento de Sistemas</h1>
-        <img src="../imgs/studant.jpeg" alt="Estudante programando">
-        
-        <p>Aprenda a criar aplicações modernas, gerenciar bancos de dados e dominar as tecnologias mais requisitadas do mercado.</p>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos - Inova Tech</title>
 
-        <h3>Disciplinas:</h3><br>
+    <link rel="stylesheet" href="../css/cursos.css">
+</head>
+
+<body>
+
+<header>
+    <img src="../imgs/Inovalogo.png" alt="Logo Inova Tech">
+
+    <h1>Inova Tech</h1>
+
+    <nav>
         <ul>
-            <li>Lógica de Programação</li>
-            <li>Banco de Dados (SQL)</li>
-            <li>Desenvolvimento Web (HTML, CSS, JS)</li>
-            <li>Estrutura de Dados em C</li>
-            <br>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cursos.html" class="active">Cursos</a></li>
+            <li><a href="secretaria.html">Secretaria</a></li>
         </ul>
+    </nav>
+</header>
 
-        <aside>
-            <h4>Informações Adicionais</h4>
-            <p><strong>Duração:</strong> 18 meses</p>
-            <p><strong>Modalidade:</strong> Presencial ou Híbrido</p>
-        </aside>
+<main>
+
+    <h2>Nossos Cursos</h2>
+
+    <!-- CURSO 1 -->
+    <section class="curso-card">
+        <h3>Desenvolvimento de Sistemas</h3>
+        <img src="../imgs/studant.jpeg" alt="Desenvolvimento de Sistemas">
+        <p>
+            Aprenda a criar sistemas completos desde o zero. Você vai estudar lógica de programação,
+            banco de dados, desenvolvimento web e integração entre front-end e back-end.
+            Ideal para quem quer se tornar um desenvolvedor full stack.
+        </p>
     </section>
+
+    <!-- CURSO 2 -->
+    <section class="curso-card">
+        <h3>Front-End Web</h3>
+        <img src="../imgs/front.jpg" alt="Front-End Web">
+        <p>
+            Domine HTML, CSS e JavaScript para criar interfaces modernas e responsivas.
+            Aprenda a desenvolver sites bonitos, rápidos e adaptados para celulares e desktops.
+        </p>
+    </section>
+
+    <!-- CURSO 3 -->
+    <section class="curso-card">
+        <h3>Banco de Dados</h3>
+        <img src="../imgs/banco.png" alt="Banco de Dados">
+        <p>
+            Aprenda a organizar, armazenar e gerenciar dados com SQL.
+            Você vai trabalhar com modelagem de dados, consultas e administração de bancos
+            utilizados no mercado.
+        </p>
+    </section>
+
+    <!-- CURSO 4 -->
+    <section class="curso-card">
+        <h3>Programação em Python</h3>
+        <img src="../imgs/python.jpg" alt="Programação em Python">
+        <p>
+            Desenvolva aplicações com uma das linguagens mais usadas do mundo.
+            Aprenda automação, criação de APIs, análise de dados e desenvolvimento rápido
+            com Python.
+        </p>
+    </section>
+
+    <!-- CURSO 5 -->
+    <section class="curso-card">
+        <h3>Desenvolvimento Mobile</h3>
+        <img src="../imgs/mobile.jpg" alt="Desenvolvimento Mobile">
+        <p>
+            Crie aplicativos para Android e iOS. Aprenda conceitos de UI/UX,
+            integração com APIs e publicação de apps nas lojas oficiais.
+        </p>
+    </section>
+
+    <!-- BOTÃO VOLTAR -->
+    <a href="index.html" class="btn-voltar">← Voltar para Home</a>
+
 </main>
+<footer>
+    <p>&copy; 2026 Inova Tech</p>
+</footer>
+
+</body>
+</html>
