@@ -55,11 +55,20 @@ header img {
 /* TÍTULO */
 header h1 {
     font-size: 39px;
+
     color: var(--primary);
+
     font-weight: 700;
 }
 
-
+@keyframes trocaCor {
+    from {
+        color: var(--accent);
+    }
+    to {
+        color: var(--primary);
+    }
+}
 /* NAV */
 nav ul {
     display: flex;
@@ -88,6 +97,8 @@ nav ul li a:active {
 
 nav ul li a.active {
     border-bottom: 2px solid var(--accent);
+    animation-name: trocaCor;
+    animation-duration: 5s;
 }
 
 main {
@@ -184,7 +195,9 @@ footer {
 footer p {
     font-size: var(--fs-small);
 }
-
+h1 {
+    
+}
 /* SELEÇÃO */
 ::selection {
     background: var(--accent);
