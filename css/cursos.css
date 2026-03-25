@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
 /* VARIÁVEIS */
 :root {
     --primary: #003366;
@@ -13,7 +15,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #f8fafc;
+ background: linear-gradient(135deg, #ffffff 0%, #b0d2f5 50%, #fcd59b 100%) !important;    color: #333;
+
 }
 
 /* HEADER FIXO */
